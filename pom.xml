@@ -12,6 +12,17 @@
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://34.71.155.244:9000/</sonar.host.url>
 	</properties>
+		<dependencies>
+
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
@@ -25,7 +36,7 @@
   	</distributionManagement>
   	<pluginRepositories>
 	    <pluginRepository>    
-		<id>maven1</id>
+		<id>maven3</id>
 		<name>Maven.org</name>
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
